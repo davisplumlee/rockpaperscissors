@@ -11,7 +11,7 @@ function runCode(x){
   document.getElementById('computerChoice').innerHTML = 'Computer chooses ' + compChoice;
   var results = ['Player wins', 'Computer wins', 'It\'s a draw']
   var result;
-  
+   
   if (userChoice == compChoice) {
       result = results[2];
   } else if (userChoice == choices[0] && compChoice == choices[1]) {
