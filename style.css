@@ -1,0 +1,47 @@
+body{
+    background: #444;
+}
+
+.rps{
+    color: #ccc;
+    text-align: center;
+
+}
+
+.p-280{
+    padding: 240px 0px 0px 0px;
+   
+}
+
+button{
+-webkit-appearance: none;
+outline: none;
+border: 0;
+background: transparent;
+}
+
+.buttons{
+    font-size: 5.5em;
+}
+
+.hov:hover{
+    color: white;
+}
+
+.hov{
+   -webkit-transition: color 0.3s ease;
+   -moz-transition: color 0.3s ease;
+   transition: color 0.3s ease; 
+   color: #ccc;
+}
+
+.header {
+    font-family: Courier New, Courier, monospace;
+    font-size: 3.5em;
+
+}
+
+#counter{
+    font-size: 2.5em;
+}
+

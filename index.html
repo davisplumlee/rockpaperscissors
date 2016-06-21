@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://use.fontawesome.com/f8241a9974.js"></script>
+
+
+</head>
+<body>
+	<!--write html below this line-->
+	<div class="container-fluid p-280 rps">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="header">Rock Paper Scissors</h1>
+				<br>
+				<div class="buttons">
+					<button type="button" onclick="runCode(0)"><i class="fa fa-hand-rock-o hov" aria-hidden="true"></i></button>
+					<button type="button" onclick="runCode(1)"><i class="fa fa-hand-paper-o hov" aria-hidden="true"></i></button>
+					<button type="button" onclick="runCode(2)"><i class="fa fa-hand-scissors-o hov" aria-hidden="true"></i></button>
+				</div>
+				<br>
+				<div id="playerChoice"></div>
+				<div id="computerChoice"></div>
+				<div id="gameResult"></div>
+				<br>
+				<div id="counter"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!--write html above this line-->
+	<!--the following line is used to link your javascript file.-->
+	<script src="app.js"></script>
+</body>
+</html>
