@@ -1,4 +1,4 @@
-// Initiallizing global variables and counte
+// Initiallizing global variables and counter
 var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
