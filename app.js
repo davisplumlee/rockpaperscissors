@@ -16,7 +16,7 @@ function runCode(x){
   var results = ['Player wins', 'Computer wins', 'It\'s a draw']
   var result;
 
-  // RPS LOGIC
+  // logic
   if (userChoice == compChoice) {
       result = results[2];
   } else if (choices[(x + 1) % 3] == compChoice) {
