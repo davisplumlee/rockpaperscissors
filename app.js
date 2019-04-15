@@ -23,7 +23,7 @@ function runCode(x){
       result = results[1];
   } else if (choices[(x + 2) % 3] == compChoice) {
       result = results[0];
-  }
+  } // TODO
 
   // Changes background and increments counter
   if(result == 'Player wins') {
