@@ -25,7 +25,7 @@ function runCode(x){
       result = results[0];
   }
 
-  //Changes background and increments counter
+  // Changes background and increments counter
   if(result == 'Player wins') {
       document.getElementsByTagName('body')[0].style.backgroundColor = 'green';
       wins++;
@@ -38,7 +38,7 @@ function runCode(x){
       document.getElementsByTagName('body')[0].style.backgroundColor = '#444';
   }
 
-  //Prints result and counter
+  // Prints result and counter
   document.getElementById('gameResult').innerHTML = 'Result: ' + result;
   document.getElementById('counter').innerHTML = wins + ' - ' + losses;
 
