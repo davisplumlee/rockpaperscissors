@@ -1,4 +1,4 @@
-//Initiallizing global variables and counter
+// Initiallizing global variables and counter
 var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
@@ -6,7 +6,7 @@ document.getElementById('counter').innerHTML = wins + ' - ' + losses;
 
 function runCode(x){
 
-  //Initiallizes Arrays and random number generator
+  // Initiallizes Arrays and random number generator
   var choices = ['rock', 'paper', 'scissors']
   var randI = Math.floor(Math.random() * choices.length)
   var userChoice = choices[x];
