@@ -8,9 +8,9 @@ function runCode(x){
 
   // Initiallizes Arrays and random number generator
   var choices = ['rock', 'paper', 'scissors']
-  var randI = Math.floor(Math.random() * choices.length)
+  var random = Math.floor(Math.random() * choices.length)
   var userChoice = choices[x];
-  var compChoice = choices[randI]
+  var compChoice = choices[random]
   document.getElementById('playerChoice').innerHTML = 'Player chooses ' + userChoice;
   document.getElementById('computerChoice').innerHTML = 'Computer chooses ' + compChoice;
   var results = ['Player wins', 'Computer wins', 'It\'s a draw']
