@@ -1,7 +1,7 @@
 var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
- 
+ //TEST COMMENT GARETT
 function runCode(x){
   var choices = ['rock', 'paper', 'scissors']
   var randI = Math.floor(Math.random() * choices.length)
@@ -11,7 +11,7 @@ function runCode(x){
   document.getElementById('computerChoice').innerHTML = 'Computer chooses ' + compChoice;
   var results = ['Player wins', 'Computer wins', 'It\'s a draw']
   var result;
-  
+
   if (userChoice == compChoice) {
       result = results[2];
   } else if (userChoice == choices[0] && compChoice == choices[1]) {
@@ -35,7 +35,7 @@ function runCode(x){
   } else if (result == 'Computer wins') {
       document.getElementsByTagName('body')[0].style.backgroundColor = 'red';
       losses++;
-    
+
   } else {
       document.getElementsByTagName('body')[0].style.backgroundColor = '#444';
   }
@@ -44,4 +44,3 @@ function runCode(x){
   document.getElementById('counter').innerHTML = wins + ' - ' + losses;
 
 }
-
