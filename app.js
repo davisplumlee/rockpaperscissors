@@ -1,7 +1,10 @@
 var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
- //TEST COMMENT GARETT 1212
+ /**
+  * @todo This is a Test Title
+  * @body This is a Test Body
+  */
 function runCode(x){
   var choices = ['rock', 'paper', 'scissors']
   var randI = Math.floor(Math.random() * choices.length)
