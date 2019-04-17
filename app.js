@@ -2,7 +2,7 @@ var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
  /**
-  * @todo This is a Test Title test
+  * @todo This is a Test Title
   * @body This is a Test Body
   *
   */
