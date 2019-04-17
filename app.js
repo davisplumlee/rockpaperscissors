@@ -4,6 +4,7 @@ document.getElementById('counter').innerHTML = wins + ' - ' + losses;
  /**
   * @todo This is a Test Title
   * @body This is a Test Body
+  *
   */
 function runCode(x){
   var choices = ['rock', 'paper', 'scissors']
