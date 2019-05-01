@@ -2,8 +2,8 @@ var wins = 0;
 var losses = 0;
 document.getElementById('counter').innerHTML = wins + ' - ' + losses;
  /**
-  * @todo This is a Test Title 88
-  * @body This is a Test Body 88
+  * @todo This is a Test Title 58
+  * @body This is a Test Body 55
   *
   */
 function runCode(x){
